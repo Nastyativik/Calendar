@@ -15,9 +15,9 @@ interface EventCardProps {
 }
 
 const statusStyles: Record<EventStatus, string> = {
-  planned: 'border-white/30 bg-white/16 text-white',
-  'in-progress': 'border-[#fff1c0]/45 bg-[#fff6d5]/20 text-[#fff9e8]',
-  completed: 'border-[#d7ffe0]/45 bg-[#d7ffe0]/20 text-[#f4fff7]',
+  planned: 'border-white/100 bg-white/100 text-[#27536D]',
+  'in-progress': 'border-[#fff1c0]/100 bg-[#efedad]/100 text-[#27536D]',
+  completed: 'border-[#d7ffe0]/100 bg-[#aff0bd]/100 text-[#27536D]',
 };
 
 export function EventCard({ event, isActive, onEdit, onDelete }: EventCardProps) {
